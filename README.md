@@ -48,7 +48,9 @@ Nome da branch | Função
 + Finalizada a tarefa, sua branch *develop* estará atualizada com sua *feature*, então o que você precisa fazer agora é mandar as alterações para o repositório remoto
 + Antes de mandar, baixe do repositório remoto as alterações, ou seja, faça `git pull upstream develop` para poder atualizar a sua branch develop local com
 qualquer coisa que os outros desenvolvedores possam ter mandado.
-+ Tendo atualizado, agora você pode enviar as alterações com o comando `git push -u upstream develop`.
++ Tendo atualizado, agora você pode enviar as alterações com o comando `git push -u upstream develop`. Das próximas vezes, você pode fazer apenas `git push`.
+
+
 
 
 
