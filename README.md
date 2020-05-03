@@ -49,6 +49,7 @@ Nome da branch | Função
 + Antes de mandar, baixe do repositório remoto as alterações, ou seja, faça `git pull upstream develop` para poder atualizar a sua branch develop local com
 qualquer coisa que os outros desenvolvedores possam ter mandado.
 + Tendo atualizado, agora você pode enviar as alterações com o comando `git push -u upstream develop`. Das próximas vezes, você pode fazer apenas `git push`.
++ O processo descrito acima é parecido para as branches *bugfix* e *support*.
 
 
 
