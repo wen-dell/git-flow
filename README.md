@@ -51,6 +51,22 @@ qualquer coisa que os outros desenvolvedores possam ter mandado.
 + Tendo atualizado, agora você pode enviar as alterações com o comando `git push -u upstream develop`. Das próximas vezes, você pode fazer apenas `git push`.
 + O processo descrito acima é parecido para as branches *bugfix* e *support*.
 
+## Criando um hotfix
+
++ A ideia de um hotfix é de uma alteração que ocorra de forma urgente em produção.
+
+## Releases e Versionamento Semântico
+
+As releases se tratam de versões fechadas que vão entrar em produção, portanto, o ideal é que elas sigam algum padrão. Esse padrão é o Versionamento Semântico. No Versionamento Semântico, o desenvolvedor se depara com três números no padrão `MAJOR.MINOR.PATCH`. Onde cada um deles significa:
+
+Nome | Significado
+-------------- | -------------
+*MAJOR* | Versão quando você faz mudanças de API incompatíveis
+*MINOR* | Versão quando você adiciona funcionalidade de uma maneira compatível
+*PATCH* | Versão quando você faz consertos de bugs de maneira compatível
+
+
+
 
 
 
