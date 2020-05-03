@@ -36,6 +36,10 @@ support | Tarefas não relacionadas a desenvolvimento
 hotfix | Consertar erros ou fazer ajustes rápidos em código de produção. Ex.: Documentação
 release | Criar versões para cada vez que o sistema for para produção
 
+## Criando uma funcionalidade
+
+Para criar uma funcionalidade, o desenvolvedor precisa fazer o comando `git flow feature start NOMEFEATURE`. Onde *NOMEFEATURE* deve ser substituído por um nome legível.
+
 
 
 
